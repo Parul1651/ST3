@@ -1,0 +1,181 @@
+body{
+
+    background-image: url(bg3.jpg);
+    background-repeat:inherit;
+    background-size:contain;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    animation: gradient 2s infinite linear;
+
+
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.top{
+    background-color:rgba(240, 16, 16, 0.1) ;
+    color: aliceblue;
+    text-align: center;
+    margin-top:0;
+
+}
+
+
+/* 
+.planet{
+    size: 50vh;
+    display:center;
+
+} */
+/* .pic{
+ 
+    
+    height: 35vh;
+    width: 47vh;
+    margin-top: 20vh;
+    
+} */
+
+.planet{
+    margin-right: 4vh;
+}
+
+#enterweight{
+    position: fixed;
+    background-color: red;
+    text-align: center;
+    margin-left: 40%;
+
+    height: 7vh;
+    width: 45vh;
+
+}
+
+#n1{
+    height: 7vh;
+    width: 40vh;
+}
+.firstRow{
+
+    overflow-x: scroll;
+    margin-bottom: 1vh;
+}
+.Sun{
+
+height: 150vh;
+width: 30vh;
+margin-right: auto;
+margin-left: 0%;
+/* margin-top: 30px; */
+/* margin-bottom: 30px; */
+
+}
+
+
+
+.Sun1{
+
+
+    height: 80vh;
+    width: 20vh;
+}
+
+
+
+
+.mer{
+
+
+    height: 9vh;
+    width: 1avh;
+    margin-top: 40vh;
+  
+}
+
+.Ven{
+
+    height: 12vh;
+    width: 1avh;
+    margin-top: 38vh;
+  
+
+}
+
+.Ear{
+    height: 15vh;
+    width: 1.3avh;
+    margin-top: 37vh;
+
+}
+
+.Mar{
+    height: 11vh;
+    width: .8avh;
+    margin-top: 39vh;
+}
+
+.Jup{
+  height: 40vh;
+  margin-top: 20vh;
+}
+
+.Sat{
+    height: 35vh;
+    margin-top: 22vh;
+}
+
+.Ura{
+    height: 26vh;
+    margin-top: 30vh;
+}
+.Nep{
+
+    height: 25vh;
+    margin-top: 31vh;
+}
+
+.Plu{
+
+    height: 6vh;
+    margin-top: 45vh;
+}
+
+#ans{
+    height: 400px;
+    width: 50px;
+    background-color: white;
+}
+
+
+
+
+/* 
+.planet {
+	animation: rotate-anim 2s linear infinite;
+	width: 50px;
+	height: 50px;
+	background: #0091EA;
+	margin: 20px;
+}
+
+@keyframes rotate-anim {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+} */
